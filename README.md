@@ -20,10 +20,11 @@ Random password generator made while learning Python.
 - Removed hardcoded combination logic
 - Added customizable character selection
 - Built dynamic allowed character pool
-- Guaranteed selected character types
+- Guarantees at least one character from each selected type
 - Improved password randomness
 - More scalable logic structure
 - Better understanding of loops and conditions
+- Added dynamic length validation (1–100 characters)
 
 ## Concepts Used:
 - Variables
@@ -43,5 +44,7 @@ Random password generator made while learning Python.
 - Basic debugging using Python error messages
 - How password generation logic works internally
 - How small projects evolve through iteration
+- How input validation prevents invalid password lengths
+- How to handle different user-selected options dynamically
 
 Built as part of my Python learning journey.

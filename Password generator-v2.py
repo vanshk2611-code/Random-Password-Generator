@@ -38,7 +38,7 @@ elif allowed == "":
 if length - extra < 0:
     print("Password length too small. Try a bigger number.")
     sys.exit()
-if length  > 99:
+if length  > 100:
     print("Password length too big. Try a smaller number")
     sys.exit()
     
